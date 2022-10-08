@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+#welcome  {     
+    position: absolute;
+    color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 9;
+        bottom: 0;
+        background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+        display: table;
+        width: 100%;
+        height: 100%;
+       
+    }
+    h1 {
+
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 300;
+    
+    }
+    
+    #name {
+        font-size: 50px;
+        font-family: 'Alex Brush', cursive;
+    
+    }
+    
+    h2 {
+        font-size: 30px;
+        font-weight: 300;
+        font-family: monospace;
+    }
+    .line {
+        height: 6px;
+        background-color: #000;
+        width: 70px;
+        margin: 8px auto;
+    }
+    
+    #bio {
+        font-family: 'Alex Brush', cursive;
+        padding: 50px;
+    }
+
+    .parallax-inner{
+        display: table-cell ;
+        vertical-align: middle;
+    }
+.menu{
+    list-style:none;
+    position: fixed;
+    background: whitesmoke;
+    top: 0px;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+}
+.links{
+    display: inline;
+    color: aqua;
+    
+    padding-left: 33px;
+    padding-right: 25px;
+
+    font-size: 20px;
+}
+.links:hover{
+    background-color: #27ae60;
+    font-size: 35px;
+    text-decoration: underline;
+}
+#writings a{
+    text-decoration: underline !important;
+    color: black !important;
+}
